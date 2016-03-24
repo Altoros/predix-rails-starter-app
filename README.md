@@ -4,7 +4,7 @@ Sample Ruby on Rails application ready to be deployed to GE Predix.
 
 ## Prerequisites
 
-- Ruby 2.3.0
+- Ruby 2.2.3
 - Node.js
 - PostgreSQL
 
