@@ -13,6 +13,4 @@ test:
 
 production:
   <<: *default
-  database: predix-rails-starter-app_production
-  username: predix-rails-starter-app
-  password: <%= ENV['PREDIX-RAILS-STARTER-APP_DATABASE_PASSWORD'] %>
+  url: <%= JSON.parse(ENV['VCAP_SERVICES']).dig('postgres', 0, 'credentials', 'uri') if Rails.env.production? %>
