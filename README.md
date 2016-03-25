@@ -7,6 +7,7 @@ Sample Ruby on Rails application ready to be deployed to GE Predix.
 - Ruby 2.3.0
 - Node.js
 - PostgreSQL
+- Cloud Foundry CLI
 
 ## Installation
 
